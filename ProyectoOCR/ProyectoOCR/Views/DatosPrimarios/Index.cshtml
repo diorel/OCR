@@ -1,0 +1,225 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div>
+    <h2>Registro</h2>
+    <img src="~/Content/img/if_user_1287507.png" />
+    <p>Ingresa tus datos como aparecen en tu identificación oficial.</p>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <hr />
+</div>
+
+<div class="container">
+    <div class="signup-form-container">
+        <!-- form start -->
+        <form role="form" id="register-form" autocomplete="off">
+
+            <div class="form-header">
+                <h3 class="form-title"><i class="fa fa-user"></i>Información Personal</h3>
+                <div class="pull-right">
+                    <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
+                </div>
+            </div>     
+            <div class="form-body">
+                <div class="row">
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="FirtsName1" id="FirtsName1" type="text" class="form-control" placeholder="Primer Nombre">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="FirtsName2" id="FirtsName2" type="text" class="form-control" placeholder="Segundo Nombre">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="SecondName1" id="SecondName1" type="text" class="form-control" placeholder="Apellido Paterno">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="SecondName2" id="SecondNam2" type="text" class="form-control" placeholder="Apellido Materno">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-6">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="CURP">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-6">
+                        <div class="input-group">
+                            <input id="datepicker" width="276" placeholder="Fecha de nacimiento" />
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-header">
+                <hr />
+                <h3 class="form-title"><i class="fa fa-user"></i>Domicilio</h3>
+                <div class="pull-right">
+                    <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
+                </div>
+            </div>
+
+
+            <div class="form-body">
+                <div class="row">
+
+                    <div class="form-group col-lg-6">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="FirtsName1" id="FirtsName1" type="text" class="form-control" placeholder="Calle">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="FirtsName2" id="FirtsName2" type="text" class="form-control" placeholder="Número Exterior">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="SecondName1" id="SecondName1" type="text" class="form-control" placeholder="Número Interior">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="Código Postal">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="Colonia">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="SecondName2" id="SecondNam2" type="text" class="form-control" placeholder="Delegacion o Municipio">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="SecondName2" id="SecondNam2" type="text" class="form-control" placeholder="Entidad Federativa">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-header">
+                <hr />
+                <h3 class="form-title"><i class="fa fa-user"></i>Datos de Contacto</h3>
+                <div class="pull-right">
+                    <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
+                </div>
+            </div>
+
+
+            <div class="form-body">
+                <div class="row">
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="FirtsName1" id="FirtsName1" type="text" class="form-control" placeholder="Celular">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="FirtsName2" id="FirtsName2" type="text" class="form-control" placeholder="Confirmar Tu Celular">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="SecondName1" id="SecondName1" type="text" class="form-control" placeholder="Correo Electronico">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="Confirmar correo">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+
+                    <div class="form-group col-lg-6">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="Telefono">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                            <input name="SecondName2" id="SecondNam2" type="text" class="form-control" placeholder="Inreso neto Fijo">
+                        </div>
+                        <span class="help-block" id="error"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-footer">
+                <button type="submit" class="btn btn-info">
+                    <span class="glyphicon glyphicon-log-in"></span> Guardar Cambios 
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script>
+        $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+</script>
+
