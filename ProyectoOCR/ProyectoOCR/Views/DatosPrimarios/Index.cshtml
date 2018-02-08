@@ -3,7 +3,6 @@
     ViewBag.Title = "Index";
 }
 
-
 <div>
     <h2>Registro</h2>
     <img src="~/Content/img/if_user_1287507.png" />
@@ -208,7 +207,7 @@
                 </div>
             </div>
             <div class="form-footer">
-                <button type="submit" class="btn btn-info">
+                <button type="button" class="btn btn-info" id="enviar">
                     <span class="glyphicon glyphicon-log-in"></span> Guardar Cambios 
                 </button>
             </div>
@@ -218,8 +217,11 @@
 
 
 <script>
-        $('#datepicker').datepicker({
-            uiLibrary: 'bootstrap4'
-        });
+    $("#enviar").click(function () {
+       
+        alert("hola esta es una alerta");
+
+        swal("Hello world!");
+    });
 </script>
 
