@@ -47,6 +47,5 @@ C:\Users\rcortes\Documents\GitHub\OCR\ProyectoOCR\ProyectoOCR\bin\es\System.Web.
 C:\Users\rcortes\Documents\GitHub\OCR\ProyectoOCR\ProyectoOCR\bin\es\System.Web.Webpages.Razor.resources.dll
 C:\Users\rcortes\Documents\GitHub\OCR\ProyectoOCR\ProyectoOCR\bin\es\System.Web.Helpers.resources.dll
 C:\Users\rcortes\Documents\GitHub\OCR\ProyectoOCR\ProyectoOCR\bin\es\System.Web.Mvc.resources.dll
-C:\Users\rcortes\Documents\GitHub\OCR\ProyectoOCR\ProyectoOCR\obj\Debug\ProyectoOCR.csprojResolveAssemblyReference.cache
 C:\Users\rcortes\Documents\GitHub\OCR\ProyectoOCR\ProyectoOCR\obj\Debug\ProyectoOCR.dll
 C:\Users\rcortes\Documents\GitHub\OCR\ProyectoOCR\ProyectoOCR\obj\Debug\ProyectoOCR.pdb
