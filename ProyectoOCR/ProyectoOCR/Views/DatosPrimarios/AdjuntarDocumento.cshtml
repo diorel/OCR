@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "AdjuntarDocumento";
+}
+
+<div class="form-header">
+
+    <h3 class="form-title"><i class="fa fa-user"></i>Documentos oficiales</h3>
+    <div class="pull-right">
+        <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
+    </div>
+</div>
+
+
+<div class="form-body">
+    <div class="row">
+        <div class="form-group col-lg-12">
+            <div class="input-group">
+                <label>IFE </label> 
+                <label class="switch">                    
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+               <label> INE</label>
+            </div>
+        </div>
+
+        <div class="form-group col-lg-6">
+            <label>Adjuntar IFE</label>
+            <input type="file" placeholder="Seleciona IFE" name="archivo" title="Selecionar IFE" id="ImportarIFE" accept=".jpg,.png" size="80" />
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Adjuntar INE</label>
+            <input type="file" placeholder="Seleciona IFE" name="archivo" title="Selecionar IFE" id="ImportarIFE" accept=".jpg,.png" size="80" />
+        </div>
+
+        </div>
+</div>
+
+<div class="form-footer">
+    <button type="button" class="btn btn-info" id="enviar">
+        <span class="glyphicon glyphicon-log-in"></span> Validar Documento 
+    </button>
+</div>
+

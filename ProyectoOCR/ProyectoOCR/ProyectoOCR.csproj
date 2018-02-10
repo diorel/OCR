@@ -123,6 +123,9 @@
     <Content Include="Content\css\bootstrap-reboot.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\switch.css" />
+    <Content Include="Content\frameworks\bootstrap2-toggle.js" />
+    <Content Include="Content\frameworks\bootstrap2-toggle.min.js" />
     <Content Include="Content\frameworks\jqBootstrapValidation.js" />
     <Content Include="Content\bootstrap\variables.less" />
     <Content Include="Content\bootstrap\mixins.less" />
@@ -149,6 +152,8 @@
     <Content Include="Content\sweetalert\sweet-alert.less" />
     <Content Include="Content\sweetalert\sweet-alert-combine.less" />
     <Content Include="Content\sweetalert\sweet-alert-animations.less" />
+    <Content Include="Views\DatosPrimarios\AdjuntarDocumento.cshtml" />
+    <Content Include="Views\DatosPrimarios\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />

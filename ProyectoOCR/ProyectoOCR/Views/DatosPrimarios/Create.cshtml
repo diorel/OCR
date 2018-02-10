@@ -1,10 +1,7 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Create";
 }
-
-
-
 
 <div>
     <h2>Registro</h2>
@@ -14,10 +11,6 @@
         <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
 
-  
-
-
-
     <hr />
 </div>
 
@@ -25,14 +18,12 @@
     <div class="signup-form-container">
         <!-- form start -->
         <form role="form" id="register-form" autocomplete="off">
-
-
             <div class="form-header">
                 <h3 class="form-title"><i class="fa fa-user"></i>Información Personal</h3>
                 <div class="pull-right">
                     <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
                 </div>
-            </div>     
+            </div>
             <div class="form-body">
                 <div class="row">
 
@@ -62,7 +53,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="SecondName2" id="SecondNam2" type="text" class="form-control" placeholder="Apellido Materno">
+                            <input name="SecondName2" id="SecondName2" type="text" class="form-control" placeholder="Apellido Materno">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -77,14 +68,8 @@
 
                     <div class="form-group col-lg-6">
                         <div class="input-group">
-
-
-                            <input id="datepicker" width="276" placeholder="Fecha de nacimiento" />
-
-                       
-
-
-                        </div>  
+                            <input name="Date"  id="Date" width="276" placeholder="Fecha de nacimiento" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,11 +86,10 @@
 
             <div class="form-body">
                 <div class="row">
-
                     <div class="form-group col-lg-6">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="FirtsName1" id="FirtsName1" type="text" class="form-control" placeholder="Calle">
+                            <input name="Street" id="Street" type="text" class="form-control" placeholder="Calle">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -113,7 +97,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="FirtsName2" id="FirtsName2" type="text" class="form-control" placeholder="Número Exterior">
+                            <input name="OutdoorNumber" id="OutdoorNumber" type="text" class="form-control" placeholder="Número Exterior">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -121,7 +105,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="SecondName1" id="SecondName1" type="text" class="form-control" placeholder="Número Interior">
+                            <input name="InteriorNumber" id="InteriorNumber" type="text" class="form-control" placeholder="Número Interior">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -129,7 +113,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="Código Postal">
+                            <input name="PostalCode" id="PostalCode" type="text" class="form-control" placeholder="Código Postal">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -137,7 +121,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="Colonia">
+                            <input name="Colony" id="Colony" type="text" class="form-control" placeholder="Colonia">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -146,7 +130,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="SecondName2" id="SecondNam2" type="text" class="form-control" placeholder="Delegacion o Municipio">
+                            <input name="Delegacion" id="Delegacion" type="text" class="form-control" placeholder="Delegacion o Municipio">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -154,7 +138,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="SecondName2" id="SecondNam2" type="text" class="form-control" placeholder="Entidad Federativa">
+                            <input name="Entidad" id="Entidad" type="text" class="form-control" placeholder="Entidad Federativa">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -177,7 +161,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="FirtsName1" id="FirtsName1" type="text" class="form-control" placeholder="Celular">
+                            <input name="Celular" id="Celular" type="text" class="form-control" placeholder="Celular">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -185,7 +169,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="FirtsName2" id="FirtsName2" type="text" class="form-control" placeholder="Confirmar Tu Celular">
+                            <input name="ConfirCeluar" id="ConfirCeluar" type="text" class="form-control" placeholder="Confirmar Tu Celular">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -193,7 +177,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="SecondName1" id="SecondName1" type="text" class="form-control" placeholder="Correo Electronico">
+                            <input name="Email" id="Email" type="text" class="form-control" placeholder="Correo Electronico">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -201,7 +185,7 @@
                     <div class="form-group col-lg-3">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="Confirmar correo">
+                            <input name="ConfirmEmail" id="ConfirmEmail" type="text" class="form-control" placeholder="Confirmar correo">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
@@ -209,46 +193,22 @@
                     <div class="form-group col-lg-6">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="Curp" id="Curp" type="text" class="form-control" placeholder="Telefono">
+                            <input name="Telefon" id="Telefon" type="text" class="form-control" placeholder="Telefono">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
                     <div class="form-group col-lg-6">
                         <div class="input-group">
                             <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-                            <input name="SecondName2" id="SecondNam2" type="text" class="form-control" placeholder="Inreso neto Fijo">
+                            <input name="Entry" id="Entry" type="text" class="form-control" placeholder="Inreso neto Fijo">
                         </div>
                         <span class="help-block" id="error"></span>
                     </div>
                 </div>
             </div>
-
-            <div class="form-header">
-                <hr />
-                <h3 class="form-title"><i class="fa fa-user"></i>Documentos oficiales</h3>
-                <div class="pull-right">
-                    <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
-                </div>
-            </div>
-            <div class="form-body">
-                <div class="row">
-                    <div class="form-group col-lg-6">
-                        <div class="input-group">        
-                            <label class="switch">
-                                <input type="checkbox">
-                                <span class="slider round"></span>
-                            </label>
-                            <input type="file" placeholder="Seleciona IFE"  name="archivo" title="Selecionar IFE" id="ImportarIFE" accept=".jpg,.png" size="80" />
-
-                        </div>
-                        <span class="help-block" id="error"></span>
-                    </div>
-                </div>
-            </div>
-
             <div class="form-footer">
-                <button type="button" class="btn btn-info" id="enviar">
-                    <span class="glyphicon glyphicon-log-in"></span> Guardar Cambios 
+                <button type="button" onclick="AltaDatos()"   class="btn btn-info" id="enviar">
+                    <span class="glyphicon glyphicon-log-in"></span> Guardar Cambios
                 </button>
             </div>
         </form>
@@ -257,24 +217,128 @@
 
 
 <script>
-        $('#datepicker').datepicker({
+        $('#Date').datepicker({
             uiLibrary: 'bootstrap4'
         });
 </script>
 
 
-<script>
-    $("#enviar").click(function () {
-       
-     
-        swal({
-            title: "Good job!",
-            text: "You clicked the button!",
-            icon: "success",
-            button: "Aww yiss!",
-        });
 
-      
-    });
+@*<script>
+    function AltaDatos() {
+
+        var FirtsName1 = $("#FirtsName1").val();
+        var FirtsName2 = $("#FirtsName2").val();
+        var SecondName1 = $("#SecondName1").val();
+        var SecondName2 = $("#SecondName2").val();
+        var Curp = $("#Curp").val();
+        var Date = $("#Date").val();
+        var Street = $("#Street").val();
+        var OutdoorNumber = $("#OutdoorNumber").val();
+        var InteriorNumber = $("#InteriorNumber").val();
+        var PostalCode = $("#PostalCode").val();
+        var Colony = $("#Colony").val();
+        var Delegacion = $("#Delegacion").val();
+        var Entidad = $("#Entidad").val();
+        var Celular = $("#Celular").val();
+        var Email = $("#Email").val();
+        var Telefon = $("#Telefon").val();
+        var Entry = $("#Entry").val();
+
+        $.ajax({
+            type: "POST",
+            url: "/ProyectoOCR/DatosPrimariosController/Create",
+            dataType: "json",
+            data: {
+                FirtsName1: FirtsName1,
+                FirtsName2: FirtsName2,
+                SecondName1: SecondName1,
+                SecondName2: SecondName2,
+                Curp: Curp,
+                Date: Date,
+                Street: Street,
+                OutdoorNumber: OutdoorNumber,
+                InteriorNumber: InteriorNumber,
+                PostalCode: PostalCode,
+                Colony: Colony,
+                Delegacion: Delegacion,
+                Entidad: Entidad,
+                Celular: Celular,
+                Email: Email,
+                Telefon: Telefon,
+                Entry: Entry
+            },
+            success: function (resultado) {
+                if (resultado == "") {
+                  
+                    swal({
+                        title: "Buen trabajo!",
+                        text: "Tus datos se guardaron con exito!",
+                        icon: "success",
+                        //timer: 2000,
+                        button: "Aceptar",
+                    });
+                }
+
+            }, error: function (e) { alert("no se registraron los datos"); }
+        });
+    }
+
+</script>*@
+
+
+
+
+
+<script>
+    function AltaDatos() {
+
+        var FirtsName1 = $("#FirtsName1").val();
+ 
+
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:2707/DatosPrimarios/Create",
+            content: "application/json; charset=utf-8",
+            dataType: "json",
+            data: {
+                FirtsName1: FirtsName1 
+            },
+            success: function (resultado) {
+                if (resultado == "") {
+
+                    alert('Has introducido un nuevo coche!!');
+
+             
+                    //swal({
+                    //    title: "Buen trabajo!",
+                    //    text: "Tus datos se guardaron con exito!",
+                    //    icon: "success",
+                    //    //timer: 2000,
+                    //    button: "Aceptar",
+                    //});
+                }
+                else { }
+
+            }, error: function (e) { swal("No se guardaron los datos :("); }
+        });
+    }
+
 </script>
+
+
+
+
+@*<script>
+    $("#enviar").click(function () {
+        swal({
+            title: "Buen trabajo!",
+            text: "Tus datos se guardaron con exito!",
+            icon: "success",
+            //timer: 2000,
+            button: "Aceptar",            
+        });
+    });
+</script>*@
+
 
